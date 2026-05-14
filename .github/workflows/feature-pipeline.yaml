@@ -1,0 +1,13 @@
+name: feature-pipeline
+on: [push]
+jobs:
+  feature-pipeline:
+  runs-on: self-hosted
+  stepts:
+  - name: call reusable feature pipeline
+    uses: SKR-2021/workflows/.github/workflows/feature-nodejs-pipline.yaml@main
+    with:
+      project: dotmart
+      component: catalogue
+      environment: dev
+
