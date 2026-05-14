@@ -3,7 +3,7 @@ on: [push]
 jobs:
   feature-pipeline:
    runs-on: self-hosted
-   steps:
+   stepts:
    - name: call reusable feature pipeline
      uses: SKR-2021/workflows/.github/workflows/feature-nodejs-pipline.yaml@main
      with:
