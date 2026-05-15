@@ -4,7 +4,7 @@ jobs:
   feature-pipeline:
     uses: SKR-2021/workflows/.github/workflows/feature-nodejs-pipline.yaml@main
     with:
-      project: dotmart
+      project: dotmart2020
       component: catalogue
       environment: dev
 
