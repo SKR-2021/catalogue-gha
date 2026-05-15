@@ -7,3 +7,4 @@ jobs:
       project: dotmart
       component: catalogue
       environment: dev
+
